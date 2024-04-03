@@ -14,5 +14,5 @@ app.use('/tweets', tweetRoutes);
 app.use('/timeline', timelineRoutes);
 
 app.listen (port,()=>{
-    console.log(`listening to ${port}`)
+    console.log(`listening to ${port}.`)
 })
